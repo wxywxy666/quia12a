@@ -1,4 +1,4 @@
-read.csv("data")
+data <- read.csv("data")
 
 # Test 9: Ensure DeathCount is an integer
 test9 <- all(data$DeathCount %% 1 == 0)
